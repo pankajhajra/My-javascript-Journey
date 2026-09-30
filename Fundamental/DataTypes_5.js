@@ -1,6 +1,12 @@
 // #Primitive DataTypes
 
-//7 types : String,Number,Boolean, null , Undefines, Symbol , BigInt
+//7 types : String,Number,Boolean, null ,
+console.log(id === anotherId); ///false
+///eg. BigInt
+const BigInt = 1246677323235353;
+console.log(typeof (BigInt));
+
+ Undefines, Symbol , BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -11,12 +17,6 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-
-console.log(id === anotherId); ///false
-///eg. BigInt
-const BigInt = 1246677323235353;
-console.log(typeof (BigInt));
-
 
 //Refrence (Non - Primitive)
 //Array, object  , Function
