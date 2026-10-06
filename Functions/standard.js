@@ -43,3 +43,13 @@ handdleObject({
     username1: "Pankaj",
     yourrank : 21
 })
+
+function handleNumbers(num) {
+     console.log( `Your numbers is ${num.firstnums} and ${num.secondnums}`)
+}
+
+handleNumbers({
+    firstnums: 21,
+    secondnums : 1
+})
+
