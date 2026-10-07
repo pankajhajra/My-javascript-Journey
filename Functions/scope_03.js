@@ -24,7 +24,7 @@ if (true) {
 
 //+++++++++++++++++ Intresting ++++++++++++++++++
 
-
+/*
 console.log(addone(5))  //6
 function addone(num) {
     return num + 1
@@ -37,3 +37,4 @@ const addTwo = function(num){
 }
 
 // console.log(addTwo(5)) //7
+*/
