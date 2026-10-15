@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<style>
+    .bg-black{
+        background-color: #010101;
+        color: #fff;
+        /*
+        ///Search in Browser
+        1. documnet.getElementById('title')
+        2. documnet.getElementById('title').id
+        3.documnet.getElementById('title').className
+        4.documnet.getElementById('title').getAttributes()
+        5.documnet.getElementById('title').setAttribute('class', test)
+        6.let title = documnet.getElementById('title')
+        => title.style.color = 'brown'
+        =>title.style.padding = "5px"
+         
+        7. title.textContent  //detail content
+           title.innerHTML
+           title.innerText
+
+        8. document.querySelector('h1')
+           document.querySelector(#title)
+           document.querySelector(.heading)
+           document.querySelector(input[name])
+            
+           const myul = document.querySelector('ul')
+                 myul.style.color = 'grey'
+                 myul.querySelector('ul')
+        9. document.querySelectorAll('li') //Nodelist
+    10.const myh1=document.querySelectorAll('h1')
+         mth1[0].style.color='green'
+
+    const templist = document.querySelectorAll(ul)
+       templist.forEach (function (l){
+       l.style.backgroundColor ='green'
+       })   
+        */
+
+        /*
+        1.const tempClassList = document.getElementByClassName('list-Item')
+
+        2. Array.from(tempClassList)
+        const myConverted = Array.from(tempClassList)
+
+        myConverted.forEach(function (li) {
+           li.style.color = 'green'
+        })
+        */
+    }
+</style >
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">Hello guyzz ! <span style="display: none;"> How are you</span>   </h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, nemo iusto?</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password"   >
+         <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+         </ul>
+         <ul>
+            <li class="listItem">One</li>
+            <li class="listItem">Two</li>
+            <li class="listItem">Three</li>
+         </ul>
+    </div>
+    
+</body>
+</html>
+
+

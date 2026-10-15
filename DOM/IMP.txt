@@ -1,0 +1,3 @@
+///document.getElementBYId('firstHeading')
+
+/// document.getElementById'(firstHeading').in+nerHTML = <h1>Chai aur Code </h1>
