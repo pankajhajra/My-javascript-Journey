@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM || OM code</title>
+</head>
+<body style="background-color: #212121;">
+    
+</body>
+<script>
+  const divv =   document.createElement('div')
+  console.log(divv)
+  divv.className = 'main'
+  divv.id =Math.round (Math.random() * 10+ 1)
+  divv.setAttribute("title", "generate title")
+  divv.style.backgroudColor = 'green'
+  divv.style.padding = '20px'
+
+  //attaching
+//   divv.innerHTML or 
+
+ const addText =  document.createTextNode("OM CODE")
+  divv.appendChild(addText)
+ const textt = document.body.appendChild(divv)
+ textt.style.color ="green"
+</script>
+</html>

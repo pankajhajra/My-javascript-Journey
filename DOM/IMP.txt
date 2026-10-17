@@ -1,3 +1,47 @@
 ///document.getElementBYId('firstHeading')
 
 /// document.getElementById'(firstHeading').in+nerHTML = <h1>Chai aur Code </h1>
+
+ /*
+        ///Search in Browser
+        1. documnet.getElementById('title')
+        2. documnet.getElementById('title').id
+        3.documnet.getElementById('title').className
+        4.documnet.getElementById('title').getAttributes()
+        5.documnet.getElementById('title').setAttribute('class', test)
+        6.let title = documnet.getElementById('title')
+        => title.style.color = 'brown'
+        =>title.style.padding = "5px"
+         
+        7. title.textContent  //detail content
+           title.innerHTML
+           title.innerText
+
+        8. document.querySelector('h1')
+           document.querySelector(#title)
+           document.querySelector(.heading)
+           document.querySelector(input[name])
+            
+           const myul = document.querySelector('ul')
+                 myul.style.color = 'grey'
+                 myul.querySelector('ul')
+        9. document.querySelectorAll('li') //Nodelist
+    10.const myh1=document.querySelectorAll('h1')
+         mth1[0].style.color='green'
+
+    const templist = document.querySelectorAll(ul)
+       templist.forEach (function (l){
+       l.style.backgroundColor ='green'
+       })   
+        */
+
+        /*
+        1.const tempClassList = document.getElementByClassName('list-Item')
+
+        2. Array.from(tempClassList)
+        const myConverted = Array.from(tempClassList)
+
+        myConverted.forEach(function (li) {
+           li.style.color = 'green'
+        })
+        */
